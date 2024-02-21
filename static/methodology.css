@@ -1,0 +1,37 @@
+.section_header_methodology {
+    background-color: #9fa7bf;
+    height: 550px;
+}
+.header_methodology{
+    display: flex;
+}
+.header_methodology .box{
+    flex: 1;
+    margin: 20px 10px;
+    padding: 15px 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.section_header_paper{
+    justify-content: center;
+    background-color: #c5c8d9;
+}
+.header_paper{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+}
+
+/* This makes it so when the screen is smaller than 768px, it puts the content in the 
+header.methodology in a column. */
+
+@media(max-width:768px) {
+    .header_methodology{
+      flex-direction: column;
+    }
+    .header_paper{
+        font-size: 30px;
+    }
+  }

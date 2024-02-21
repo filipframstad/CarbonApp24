@@ -1,0 +1,67 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<!-- Header -->
+<section class="section_header_home">
+  <div class="container">
+
+    <div class="header_home">
+      <div class="box"> 
+        <h1 style="font-size:55px;"><span class="text-logo"> Home</span></h1>
+        <p style="text-align:left;">
+          In this webpage we have presented the consept and the background for creating this website. In this website we have done resarch about carbon emissions and
+          green digitalization, which we have developed into an paper. From this paper, we have developed an carbon emissions app, which can help users 
+          to calulcate their carbon emissions, based on their type of transport vechile, and the distance. 
+        </p>
+        <div class="container_buttons_header_home">
+          <div class="btn">
+              <a href="#" class="btn btn-primary btn-lg mr-2", style="background-color:#007bff;">Register</a>
+          </div>
+          <div class="btn">
+              <a href="#" class="btn btn-primary btn-lg mr-2", style="background-color:#007bff;">Login</a>
+          </div>
+        </div>  
+      </div>
+      <div class="box">
+        <img 
+          src="{{url_for('static', filename='icons/carbon_app.svg')}}"
+          width="325" 
+          height="325"
+          alt=""/>
+      </div>
+    </div>
+
+  </div>
+</section> 
+
+<!-- Developers -->
+
+<section class="section_developers">
+  <div class="container">
+    <div class="container_developers" style="display: block;">
+      <h1 style="text-align: center; color: #568c63;">Our Team</h1>
+      <p>
+        The team which have developed the carbon app and written the methodology 
+        in the course "Green digitalization and App Development" are:
+      </p>
+    <div class="developers">
+      <div class="box">
+        <img src="{{url_for('static',filename='pictures/Filip.jpeg')}}" alt="" style="border-radius: 50%; width: 200px; height: 200px;">
+        <h3>Developer 1</h3>
+        <p>My name is Filip Framstad and i am 20 years old from Ålesund. I´m taking a one year 
+          study in "Digital Økonomi og Ledelse", before i next year plan to start a bachelor at NHH. I also work part time at 
+          a bank as an Analyst with counter-money laundering. I also like to work out, where 
+          i run and lift weights pretty much every day. 
+        </p>
+        <div class="container_btn_developers">
+          <a class="btn_developers" href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiF9Lmju5yEAxUJIxAIHT24Bo8QFnoECBUQAQ&url=https%3A%2F%2Fno.linkedin.com%2Fin%2Ffilip-framstad-90b97420b&usg=AOvVaw0v9HMCi-lmq6WSN-4VZ-bX&opi=89978449" target="_blank">CV</a>
+        </div>
+      </div>
+
+    </div>
+    </div>
+  </div>
+</section>
+
+
+{% endblock content %}@

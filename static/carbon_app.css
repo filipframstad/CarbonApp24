@@ -1,0 +1,35 @@
+.section_header_carbon_app{
+    background-color: #9fa7bf;
+}
+.header_carbon_app {
+    display: flex;
+}
+.header_carbon_app .box {
+    flex: 1; /* This means that the boxes will have an equal size  */
+    margin: 20px 10px;
+    padding:15px 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.section_header_calculator{
+    justify-content: center;
+    background-color: #c5c8d9;
+    height: 200px;
+}
+.header_calculator .box {
+    flex: 1;
+    background-color: #49736f;
+    border-radius: 10px;
+    margin: 0px 10px;
+    padding: 15px 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(max-width:768px) {
+    .header_carbon_app{
+      flex-direction: column;
+    }
+  }
