@@ -48,10 +48,16 @@
             <div class="container">
                 <div class="navbar">
                     <h1 class="logo">
-                        <span class="text-logo"><i class="fa-solid fa-leaf"></i> Carbon</span> App
+                        <span class="text-logo"></a><i class="fa-solid fa-leaf"></i> Carbon</span> App 
                     </h1>
                     <nav>
                         <ul>
+                            <li>
+                                <a href="{{url_for('users.register')}}">Register</a>
+                            </li>
+                            <li>
+                                <a href="{{url_for('users.login')}}">Login</a>
+                            </li>
                             <li>
                                 <a href="{{url_for('home.home_home')}}">Home</a>
                             </li>

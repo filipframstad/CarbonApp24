@@ -4,6 +4,7 @@
 }
 .header_methodology{
     display: flex;
+    justify-content: center;
 }
 .header_methodology .box{
     flex: 1;

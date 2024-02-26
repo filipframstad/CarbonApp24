@@ -15,17 +15,19 @@
 .section_header_calculator{
     justify-content: center;
     background-color: #c5c8d9;
-    height: 200px;
+    height: auto;
+    display: flex;
 }
 .header_calculator .box {
     flex: 1;
     background-color: #49736f;
     border-radius: 10px;
-    margin: 0px 10px;
+    margin: 5px 10px;
     padding: 15px 20px;
     text-align: center;
     align-items: center;
     justify-content: center;
+    margin-bottom: 10px;
 }
 
 @media(max-width:768px) {

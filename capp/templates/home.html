@@ -15,10 +15,10 @@
         </p>
         <div class="container_buttons_header_home">
           <div class="btn">
-              <a href="#" class="btn btn-primary btn-lg mr-2", style="background-color:#007bff;">Register</a>
+              <a href="{{url_for('users.register')}}" class="btn btn-primary btn-lg mr-2", style="background-color:#007bff;">Register</a>
           </div>
           <div class="btn">
-              <a href="#" class="btn btn-primary btn-lg mr-2", style="background-color:#007bff;">Login</a>
+              <a href="{{url_for('users.login')}}" class="btn btn-primary btn-lg mr-2", style="background-color:#007bff;">Login</a>
           </div>
         </div>  
       </div>
@@ -46,7 +46,7 @@
       </p>
     <div class="developers">
       <div class="box">
-        <img src="{{url_for('static',filename='pictures/Filip.jpeg')}}" alt="" style="border-radius: 50%; width: 200px; height: 200px;">
+        <img src="{{url_for('static',filename='pictures/Filip2.jpeg')}}" alt="" style="border-radius: 50%; flex: auto; width: 200px; height: auto;">
         <h3>Developer 1</h3>
         <p>My name is Filip Framstad and i am 20 years old from Ålesund. I´m taking a one year 
           study in "Digital Økonomi og Ledelse", before i next year plan to start a bachelor at NHH. I also work part time at 
