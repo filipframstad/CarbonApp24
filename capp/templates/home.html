@@ -7,6 +7,15 @@
 
     <div class="header_home">
       <div class="box"> 
+        {%with messages = get_flashed_messages(with_categories=true)%}
+          {% if messages %}
+            {%for category, message in messages %}
+              <div class="alert_alert">
+                {{message}}
+              </div>
+            {%endfor %}
+          {% endif %}
+        {%endwith %}
         <h1 style="font-size:55px;"><span class="text-logo"> Home</span></h1>
         <p style="text-align:left;">
           In this webpage we have presented the consept and the background for creating this website. In this website we have done resarch about carbon emissions and

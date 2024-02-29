@@ -100,3 +100,16 @@
         align-items: center;
     }
 }
+
+/*Alert*/
+
+.header_home .box .alert_alert{
+  background-color: #568c63;
+  height: auto;
+  width: auto;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+}
